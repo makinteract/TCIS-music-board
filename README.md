@@ -4,6 +4,8 @@ A simple board to make music with a 555 timer. Designed with [KiCad](https://kic
 
 [![overview](./assets/overview.jpg)](https://youtu.be/akiujggR6uY)
 
+Video: [YouTube](./assets/overview.jpg)
+
 ## Schematic diagram
 
 ![overview](./assets/schematics.png)
