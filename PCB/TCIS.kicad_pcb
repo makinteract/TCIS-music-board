@@ -136,7 +136,7 @@
 			)
 		)
 		(property "Value" "Piezo Speaker"
-			(at 0 2.46 0)
+			(at -0.5 10.295 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "fdb23752-ec20-4fcc-9948-a227d5d04f93")
@@ -187,18 +187,6 @@
 			(fill no)
 			(layer "F.SilkS")
 			(uuid "48709ba2-3f89-4bde-9f07-aa4ae001cc65")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 5 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(uuid "f28137c3-6031-4d17-8f57-8c4cb39ee998")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
 		)
 		(dimension
 			(type orthogonal)
@@ -526,7 +514,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 8 "B")
+			(net 7 "A")
 			(pinfunction "DIS")
 			(pintype "input")
 			(uuid "4afda464-232b-446b-9db3-2a3fe7802f12")
@@ -1054,7 +1042,7 @@
 				)
 			)
 		)
-		(property "Value" "100u"
+		(property "Value" "1u"
 			(at 3.75 2.42 90)
 			(layer "F.Fab")
 			(uuid "c97505c3-4342-4ccd-b0e9-4524677eef45")
@@ -1318,7 +1306,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 5.08 2.37 90)
+			(at 2.58 -2.5 90)
 			(layer "F.Fab")
 			(uuid "409ad0eb-b50a-4df0-b4f0-26d7d9e16d70")
 			(effects
@@ -1546,7 +1534,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 8 "B")
+			(net 7 "A")
 			(pintype "passive")
 			(uuid "cd8e609d-2a93-495c-9673-b74a03bea65b")
 		)
@@ -1581,7 +1569,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 3.75 2.42 90)
+			(at 8.25 -1.5 90)
 			(layer "F.Fab")
 			(uuid "7d9f96cc-9a76-4fdc-aa96-4054ceb2a684")
 			(effects
@@ -1846,6 +1834,7 @@
 		(property "Value" "Any Variable Resistor"
 			(at 5.5 5.54 90)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "2d170bf5-ec83-43ae-ace4-d28d085de655")
 			(effects
 				(font
@@ -2324,17 +2313,6 @@
 			)
 			(layer "F.Fab")
 			(uuid "5d8d984e-e97b-4d72-8907-c9bff248b014")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 2.77 1.27 0)
-			(layer "F.Fab")
-			(uuid "1ea809a8-7205-4fbf-b62c-dc4fa931d767")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
 		)
 		(pad "1" thru_hole rect
 			(at 0 0 90)
@@ -2828,7 +2806,7 @@
 				)
 			)
 		)
-		(property "Value" "300K"
+		(property "Value" "330K"
 			(at 5.08 2.37 90)
 			(layer "F.Fab")
 			(uuid "6b4c491f-42f4-4aa2-b41c-00b474dc1112")
@@ -3057,7 +3035,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 7 "A")
+			(net 8 "B")
 			(pintype "passive")
 			(uuid "edc45ab1-aa14-4da6-a4e0-5e7cb5ca0dcd")
 		)
@@ -3281,17 +3259,6 @@
 			)
 			(layer "F.Fab")
 			(uuid "3664fe19-ad55-4d3c-99c2-aae17dc60a10")
-		)
-		(fp_text user "${REFERENCE}"
-			(at -5 -1.46 0)
-			(layer "F.Fab")
-			(uuid "49374c0f-9524-4470-b7e7-53f0e7014f36")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
 		)
 		(pad "1" thru_hole rect
 			(at 0 0 270)
